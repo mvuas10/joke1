@@ -17,8 +17,9 @@
     "url": "https://github.com/mvuas10/joke1/issues"
   },
   "homepage": "https://github.com/mvuas10/joke1#readme",
-  "description": "",
   "dependencies": {
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {},
+  "description": ""
 }
