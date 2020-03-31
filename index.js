@@ -15,7 +15,10 @@ const page =
 
 app.get('/', (req, res) => res.send(page))
 
-const port = 3000
+// use $PORT if it is defined
+// use 3000 if $PORT is not defined
+const port = process.env.PORT || 3000
 
+// start server
 app.listen(port, () => console.log(`Example app listening on port ${port}!`))
 
